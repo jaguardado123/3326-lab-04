@@ -53,7 +53,7 @@ Write a program to prompt the user to input a length in feet, then convert the l
 
 &emsp;**$yards = 1 / 3 * feet$**
 
-Round your output to the nearest hundredth (second) decimal place **<ins>using type conversion</ins>**.
+Round your output to the nearest hundredth (second) decimal place **<ins>using type casting</ins>**.
 
 **Expected Output:**
 
