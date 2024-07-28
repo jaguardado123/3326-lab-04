@@ -53,16 +53,11 @@ Write a program to prompt the user to input a length in feet, then convert the l
 
 &emsp;**$yards = 1 / 3 * feet$**
 
-Round your output to the nearest hundredth (second) decimal place **using type conversion**.
+Round your output to the nearest hundredth (second) decimal place **<ins>using type conversion</ins>**.
 
 **Expected Output:**
-```
-Welcome to my Feet to Yards Length Converter!
 
-Enter a length in feet: 9.2
-
-9.2 feet is equal to 3.07 yards.
-```
+<img src="img/lab4-expected.png" width="400px">
 
 ## Submit your assignment
 
