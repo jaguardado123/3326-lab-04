@@ -15,7 +15,7 @@ Now let's begin!
 In Java, using type casting is the fastest way to convert your numerical data types. Simply write the name of the desired numerical data type in front of your variable wrapped around parenthesis ().
 
 **Example:**
-```java
+```cpp
 int wholeNum = 5;
 float realNum = (float) wholeNum;
 ```
@@ -27,7 +27,7 @@ For more information on type casting in Java visit: https://www.w3schools.com/ja
 To convert a numerical data type to a String we can take advantage of Java's automatic type conversion to String feature.
 
 **Example:**
-```java
+```cpp
 int num = 7;
 String text = "" + num;
 ```
@@ -36,10 +36,15 @@ Easy peasy!
 
 Now, to convert a String to a numerical data type we need to call upon the class of the desired data type and invoke their parse method.
 
-&emsp;***data_type*** **num = *Data_Type*.parse*Data_Type*( "String Value" );**
+| Method | Description |
+| --- | --- |
+| Integer.parseInt( *string_value* ) | Converts a string value into an integer value and returns it. |
+| Long.parseLong( *string_value* ) | Converts a string value into a long value and returns it. |
+| Float.parseFloat( *string_value* ) | Converts a string value into a float value and returns it. |
+| Double.parseDouble( *string_value* ) | Converts a string value into a double value and returns it. |
 
 **Example:**
-```java
+```cpp
 int num = Integer.parseInt("123");
 ```
 
@@ -47,17 +52,37 @@ For more information on String conversion in Java visit: https://www.w3schools.i
 
 ## Your Assignment
 
-### Length Converter
+### Data Convertion
 
-Write a program to prompt the user to input a length in feet, then convert the length in feet to yards.
+For this assignment you will practice the various conversion methods covered in lecture.
 
-&emsp;**$yards = 1 / 3 * feet$**
+Copy the code snippet below and paste it inside your **main() method** in your java file.
 
-Round your output to the nearest hundredth (second) decimal place **<ins>using type casting</ins>**.
+```cpp
+// Convert the string strFloat into a float.
+String strFloat = "374.25";
+float from_strFloat; // assign here
 
-**Expected Output:**
+// Convert the string strInt into an integer.
+String strInt = "1250";
+int from_strInt; // assign here
 
-<img src="img/lab4-expected.png" width="400px">
+// Convert the float floatNum into an integer.
+float floatNum = 56.715f;
+int from_floatNum; // assign here
+
+// Convert the integer intNum into a float.
+int intNum = 1500;
+float from_intNum; // assign here
+
+// Convert the double doubleNum into a string.
+double doubleNum = 3.14159265;
+String from_doubleNum; // assign here
+```
+
+Convert the values stored inside the variables according to the comments. Assign the converted values into the specified variables.
+
+You don't need to output any messages for this lab.
 
 ## Submit your assignment
 
