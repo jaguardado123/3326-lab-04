@@ -59,25 +59,29 @@ For this assignment you will practice the various conversion methods covered in 
 Copy the code snippet below and paste it inside your **main() method** in your java file.
 
 ```cpp
-// Convert the string strFloat into a float.
-String strFloat = "374.25";
-float from_strFloat; // assign here
+// Problem 1. Convert the string inside prob1 into a float literal and store inside prob1_sol.
+String prob1 = "374.25";
+float prob1_sol; // store solution here
 
-// Convert the string strInt into an integer.
-String strInt = "1250";
-int from_strInt; // assign here
+// Problem 2. Convert the string inside prob2 into an integer literal and store inside prob2_sol.
+String prob2 = "1250";
+int prob2_sol; // store solution here
 
-// Convert the float floatNum into an integer.
-float floatNum = 56.715f;
-int from_floatNum; // assign here
+// Problem 3. Convert the float literal inside prob3 into an integer literal and store inside prob3_sol.
+float prob3 = 56.715f;
+int prob3_sol; // store solution here
 
-// Convert the integer intNum into a float.
-int intNum = 1500;
-float from_intNum; // assign here
+// Problem 4. Convert the integer literal inside prob4 into a float literal and store inside prob4_sol.
+int prob4 = 1500;
+float prob4_sol; // store solution here
 
-// Convert the double doubleNum into a string.
-double doubleNum = 3.14159265;
-String from_doubleNum; // assign here
+// Problem 5. Convert the double literal inside prob5 into a float literal and store inside prob5_sol.
+double prob5 = 3.14159265;
+float prob5_sol; // store solution here
+
+// Problem 6. Convert the double literal inside prob6 into a string and store inside prob6_sol.
+double prob6 = 214.68952356;
+String prob6_sol; // store solution here
 ```
 
 Convert the values stored inside the variables according to the comments. Assign the converted values into the specified variables.
