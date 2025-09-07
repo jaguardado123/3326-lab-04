@@ -1,4 +1,4 @@
-# Lab Assignment 04
+# Lab 04
 
 In this lab you will practice writing Java code to **convert data types**.
 
@@ -52,7 +52,7 @@ For more information on String conversion in Java visit: https://www.w3schools.i
 
 ## Your Assignment
 
-### Data Convertion
+### Data Type Convertion
 
 For this assignment you will practice the various conversion methods covered in lecture.
 
@@ -88,8 +88,13 @@ Convert the values stored inside the variables according to the comments. Assign
 
 You don't need to output any messages for this lab.
 
-## Submit your assignment
+<br>
 
-[Grading Criteria](https://joselitoguardado.dev/3326/labs/Lab_04.pdf)
+**Grading Criteria:**
+| Criteria | Points |
+|---|---|
+| All data types are converted to their assigned data type | 70 |
+| File and class are named Converter | 20 |
+| Class is public | 10 |
 
 [How to Submit Assignments to GitHub](https://joselitoguardado.dev/3326/How_to_Submit_Assignments_to_GitHub.pdf)
